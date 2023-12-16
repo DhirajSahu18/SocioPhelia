@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          Sociophelia
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
@@ -72,7 +72,6 @@ const Navbar = () => {
           </FlexBetween>
         )}
       </FlexBetween>
-
       {/* DESKTOP NAV */}
       {isNonMobileScreens ? (
         <FlexBetween gap="2rem">
@@ -193,5 +192,6 @@ const Navbar = () => {
     </FlexBetween>
   );
 };
+
 
 export default Navbar;
